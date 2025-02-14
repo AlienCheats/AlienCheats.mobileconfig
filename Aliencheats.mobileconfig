@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>PayloadDisplayName</key>
+    <string>Alien Cheats Website</string>
+    <key>PayloadIdentifier</key>
+    <string>com.aliencheats.website</string>
+    <key>PayloadType</key>
+    <string>Profile Service</string>
+    <key>PayloadUUID</key>
+    <string>F1D8E4A2-6E2F-4D8D-9A3B-1234567890AB</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>PayloadOrganization</key>
+    <string>Alien Cheats</string>
+    
+    <key>PayloadContent</key>
+    <array>
+      <dict>
+        <key>PayloadType</key>
+        <string>com.apple.webClip.managed</string>
+        <key>PayloadUUID</key>
+        <string>A123B456-C789-0123-D456-7890E123F456</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>PayloadDisplayName</key>
+        <string>Alien Cheats</string>
+        <key>PayloadIdentifier</key>
+        <string>com.aliencheats.webclip</string>
+        <key>FullScreen</key>
+        <true/>
+        <key>Precomposed</key>
+        <true/>
+        <key>Icon</key>
+        <data>
+        <!-- Base64-encoded image for the web clip icon (optional) -->
+        </data>
+        <key>Label</key>
+        <string>Alien Cheats</string>
+        <key>URL</key>
+        <string>https://alien-cheats-website.vercel.app/#home</string>
+        <key>IsRemovable</key>
+        <true/>
+      </dict>
+    </array>
+  </dict>
+</plist>
